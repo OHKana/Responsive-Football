@@ -49,8 +49,8 @@ body{
 .header-bottom{
     display: flex;
 }
-.header-title{
-    font-weight: bold;
+.header-title h1{
+    font-weight: 700px;
     font-size: 64px;
     line-height: 80px;
 }
@@ -78,8 +78,13 @@ body{
 }
 .container{
     width: 300px;
-    height: 426px;
+    height: 477px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     margin-right: 45px;
+    margin-bottom: 27px;
 }
 .player img{
     width: 300px;
@@ -87,8 +92,10 @@ body{
 }
 .img-info h3{
     font-size: 28px;
+    margin-bottom: 0px;
 }
 .img-info p{
+    margin-top: 10px;
     font-size: 16px;
     font-weight: 400px;
 }
