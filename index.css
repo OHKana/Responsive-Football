@@ -15,7 +15,13 @@ body{
 .header-area{
     /* width: 1440px;
     height: 3750px; */
-    background-color: #562EFF;
+    position: absolute;
+    width: 100%;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+    
+    background: #2D25A0;
    
 }
 .header-top{
@@ -27,7 +33,9 @@ body{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding-top: 42px;
+    padding-left: 156px;
+    padding-right: 142px;
 }
 .header-top-left a{
     text-decoration: none;
@@ -42,12 +50,14 @@ body{
 .header-top-right {
    /* align-items: center;
     justify-content: center; */
+   
     width: 123px;
     height: 44px;
     background-color: #E02C6D;
 }
 .header-bottom{
     display: flex;
+    padding-left: 156px;
 }
 .header-title h1{
     font-weight: 700px;
@@ -62,6 +72,9 @@ body{
 .header-banner img{
     width: 556.01px;
     height: 438px; 
+    padding-right: 124px;
+    padding-top: 67px;
+    padding-left: 102px;
 }
 
 /* ----------- Gallary------------ */
@@ -70,21 +83,21 @@ body{
     width: 330px;
     height: 474px;
     margin-top: 70px;
-    
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 747px;
 }
 .container{
     width: 300px;
     height: 477px;
     padding-left: 15px;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     padding-right: 15px;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     margin-right: 45px;
     margin-bottom: 27px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player img{
     width: 300px;
