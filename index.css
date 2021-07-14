@@ -16,7 +16,7 @@ body{
     /* width: 1440px;
     height: 3750px; */
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 677px;
     left: 0px;
     top: 0px;
@@ -43,14 +43,20 @@ body{
     padding-right: 36px;
    
 }
+.header-top-left a:hovor{
+    background-color: #E02C6D;
+}
 .header-top-right a{
     text-decoration: none;
     color: #FFFFFF; 
 }
+.icon{
+    padding-right: 10px;
+}
 .header-top-right {
-   /* align-items: center;
-    justify-content: center; */
-   
+   align-items: center;
+    justify-content: center;
+    display: flex;
     width: 123px;
     height: 44px;
     background-color: #E02C6D;
@@ -58,6 +64,7 @@ body{
 .header-bottom{
     display: flex;
     padding-left: 156px;
+    
 }
 .header-title h1{
     font-weight: 700px;
@@ -67,7 +74,16 @@ body{
 .button{
     width: 168px;
     height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
     background-color: #E02C6D;
+}
+
+.button:hover{
+    width: 172px;
+    font-size: 20px;
+    padding: 5px 5px;
+    transform: scale(1);
 }
 .header-banner img{
     width: 556.01px;
@@ -89,19 +105,27 @@ body{
     padding-top: 747px;
 }
 .container{
-    width: 300px;
-    height: 477px;
-    padding-left: 15px;
-    /* padding-top: 15px; */
+    width: 330px;
+    height: 456px;
+    padding-left: 15px; 
+    padding-top: 15px; 
     padding-right: 15px;
-    /* padding-bottom: 15px; */
+    padding-bottom: 15px;
     margin-right: 45px;
     margin-bottom: 27px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
+.elements{
+    width: 300px;
+    height: 426px;
+}
 .player img{
     width: 300px;
     height: 256px;
+}
+.img-info{
+    width: 300px;
+    height: 156px;
 }
 .img-info h3{
     font-size: 28px;
@@ -114,8 +138,9 @@ body{
 }
 
 /* --------------highlights---------*/
-.highlight{
+.highlights{
     display: grid;
+    padding-top: 1700px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -128,4 +153,22 @@ body{
 .highlight-img img{
     width: 567px;
     height: 427px;
+}
+/* ---------- footer -------------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 300px;
+    height: 213px;
+    left: 650px;
+    top: 3700px;
+}
+.footer-image img{
+            width: 400px;
 }
