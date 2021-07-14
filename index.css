@@ -13,8 +13,6 @@ body{
 /*----------- header------- */
 
 .header-area{
-    /* width: 1440px;
-    height: 3750px; */
     position: absolute;
     width: 1440px;
     height: 677px;
@@ -37,13 +35,23 @@ body{
     padding-left: 156px;
     padding-right: 142px;
 }
+.header-top-left{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .header-top-left a{
     text-decoration: none;
-    color: #FFFFFF; 
-    padding-right: 36px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-right: 15px;
+    padding-left: 15px;
    
 }
-.header-top-left a:hovor{
+.header-top-left a:hover{
+    font-size: 18px;
     background-color: #E02C6D;
 }
 .header-top-right a{
@@ -52,14 +60,22 @@ body{
 }
 .icon{
     padding-right: 10px;
+    padding-left: 10px;
 }
 .header-top-right {
-   align-items: center;
+    align-items: center;
     justify-content: center;
     display: flex;
-    width: 123px;
+    width: 120px;
     height: 44px;
+    font-size: 16px;
     background-color: #E02C6D;
+}
+.header-top-right:hover{
+    width: 130px;
+    font-size: 20px;
+    /* padding: 10px 5px; */
+    /* transform: scale(1); */
 }
 .header-bottom{
     display: flex;
@@ -77,6 +93,7 @@ body{
     font-size: 16px;
     color: #FFFFFF;
     background-color: #E02C6D;
+    border: #FFFFFF;
 }
 
 .button:hover{
@@ -154,6 +171,45 @@ body{
     width: 567px;
     height: 427px;
 }
+/* ---------------- Rankings ------------- */
+.rankings{
+    width: 800px;
+    height: 350px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-left: 200px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 40px rgba(2, 2, 2, 0.192);
+    display: flex;
+}
+.ranking-details{
+    width: 300px;
+    height: 320px;
+}
+.ranking-title{
+    font-size: 30px;
+}
+.watch-link {
+    text-decoration: none;
+    color: whitesmoke;
+    width:40px;
+    height: 30px;
+    padding: 10px 10px;
+    
+    border-radius: 10px;
+}
+.watch-link:hover {
+    /* position: relative; */
+    width: 45px;
+}
+.ranking-img{
+    width: 400px;
+    height: 350px;
+    margin-left: 10px;
+}
 /* ---------- footer -------------- */
 
 footer{
@@ -161,14 +217,19 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-
     position: absolute;
-    width: 300px;
+    width: 484px;
     height: 213px;
-    left: 650px;
-    top: 3700px;
+    padding-top: 100px;
+    padding-left: 390px;
+    padding-right: 481px;
+    padding-bottom: 50px;
 }
 .footer-image img{
             width: 400px;
+}
+.footer-icon{
+    width: 32px;
+    height: 32px;
+    padding-right: 14px;
 }
