@@ -258,15 +258,21 @@ footer{
 @media only screen and(max-width: 688px){
     body{
         overflow-x: hidden;
-       
+        margin: 2px 2px 2px 2px;
+        padding: 2px 2px 2px 2px;
         width: 100%;
         align-items: center;
         justify-content: center;
+    }
+    .main-part{
+        margin: 0px 0px;
     }
     .header-area{
         width: 100%;
         margin: 0px;
         padding: 5px;
+        display: flex;
+        flex-direction: column;
 
     }
     .header-top{
@@ -288,8 +294,7 @@ footer{
         justify-content: flex-end;
     }
     .header-bottom{
-        margin-left: -1pxpx;
-        margin-right: 5px;
+        margin: 0px 0px 0px 0px;
         width: 100%;
         padding: 5px 5px;
         display: flex;
@@ -306,12 +311,17 @@ footer{
         padding-right: 50px;
        margin-left: -30px;
     }
+    .gallary{
+        width: 100%;
+    }
     .container{
         width: 90%;
         padding-left: 10px;
         padding-right: 10px;
+        margin: 2px 2px 2px 2px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        align-items: center;
     }
     .highlights{
         width: 100%;
