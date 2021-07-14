@@ -307,9 +307,11 @@ footer{
         width: 50%;
     }
     .header-banner{
-        width: 50%;
+        
+        width: 278px;
+        height: 138px;
         padding-right: 50px;
-       margin-left: -30px;
+        margin-left: -30px;
     }
     .gallary{
         width: 100%;
