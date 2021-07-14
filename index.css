@@ -7,8 +7,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
-    margin-left: 150px; 
+    /* margin-left: 150px;  */
    
+}
+.main-part{
+    /* align-items: center; */
+    margin-left: 150px;
 }
 
 /*----------- header------- */
@@ -16,7 +20,7 @@ body{
 .header-area{
     position: absolute;
     /* width: 1440px; */
-    width: 100%;
+    /* width: 100%; */
     height: 677px;
     left: 0px;
     top: 0px;
